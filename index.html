@@ -40,8 +40,8 @@
 </head>
 
 <body>
-    <header class="max-w-screen-xl mx-auto">
-        <div class="navbar bg-base-100">
+    <header class="p-4">
+        <div class="navbar max-w-screen-xl mx-auto">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -51,42 +51,44 @@
                                 d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </label>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-2 z-[1] p-2 shadow bg-base-100  w-52">
+                        <li><a class="hover:bg-inherit">Home</a></li>
+                        <li><a class="hover:bg-inherit">Services</a></li>
+                        <li><a class="hover:bg-inherit">Cases</a></li>
+                        <li><a class="hover:bg-inherit">Blog</a></li>
+                        <li><a class="hover:bg-inherit">Contact Us</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                <div class="hidden lg:flex ">
+                    <img src="images/logo2.png" alt="">
+                </div>
+
+            </div>
+            <div class="lg:hidden w-4/12 mr-5">
+                <img src="images/logo2.png" alt="">
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li tabindex="0">
-                        <details>
-                            <summary>Parent</summary>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                <ul class="menu menu-horizontal px-1 text-base font-normal text-[#707070] font-two">
+                    <li><a class="hover:bg-inherit">Home</a></li>
+                    <li><a class="hover:bg-inherit">Services<i class="fa-solid fa-angle-right"></i></a></li>
+                    <li><a class="hover:bg-inherit">Cases<i class="fa-solid fa-angle-right"></i></a></li>
+                    <li><a class="hover:bg-inherit">Blog<i class="fa-solid fa-angle-right"></i></a></li>
+                    <li><a class="hover:bg-inherit">Contact Us<i class="fa-solid fa-angle-right"></i></a></li>
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn">Button</a>
+                <a
+                    class="py-2 px-1 bg-[#B68C5A] text-sm text-white rounded-md lg:px-12 lg:py-3 lg:text-xl md:px-5 md:text-lg">
+                    Free Consultation
+                </a>
             </div>
         </div>
     </header>
+    <section>
+        <div>
 
+        </div>
+    </section>
 
     <!-- font awesome js link -->
     <script src="https://kit.fontawesome.com/d171d57a0b.js" crossorigin="anonymous"></script>
